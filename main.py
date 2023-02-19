@@ -33,8 +33,6 @@ def main():
             text = f.read().strip()
     elif(text == "I" or text == "i"):
         text = input()
-    else:
-        return
 
     mismatch = find_mismatch(text)
     print(mismatch)
