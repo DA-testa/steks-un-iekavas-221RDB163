@@ -31,7 +31,7 @@ def main():
     if(text == "F"):
         with open( f"test/{input()}", "r" ) as f:
             text = f.readline()
-    elif(text == "I"):
+    elif(text == "I" or text == "i"):
         text = input()
 
     mismatch = find_mismatch(text)
