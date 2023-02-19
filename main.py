@@ -24,17 +24,8 @@ def find_mismatch(text):
     
     return "Success"
 
-
 def main():
     text = input()
-
-    if(text == "F"):
-        with open( input(), "r" ) as f:
-            text = f.read().strip()
-    elif(text == "I" or text == "i"):
-        text = input()
-    else:
-        return
 
     mismatch = find_mismatch(text)
     print(mismatch)
